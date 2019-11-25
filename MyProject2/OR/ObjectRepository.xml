@@ -1,0 +1,60 @@
+<OR>
+    <LoginPage>
+        <button_home locatorName="XPATH">//*[@id="Table_07"]/tbody/tr/td[2]/a/img</button_home>
+        <button_personelBanking locatorName="XPATH">//*[@id="IMG3"]</button_personelBanking>
+        <button_CorporateBanking locatorName="XPATH">//*[@id="Table_07"]/tbody/tr/td[4]/a/img</button_CorporateBanking>
+        <button_InternationalBanking locatorName="XPATH">//*[@id="Table_07"]/tbody/tr/td[5]/a/img</button_InternationalBanking>
+        <button_AboutUs locatorName="XPATH">//*[@id="Table_07"]/tbody/tr/td[6]/a/img</button_AboutUs>
+        <button_Personel locatorName="Name">personal</button_Personel>
+        <button_Corporate locatorName="Name">=corporate</button_Corporate>
+        <button_International locatorName="Name">NRI</button_International>    
+        <txt_UserName locatorName="Name">txtuId</txt_UserName>
+        <txt_PassWord locatorName="Name">txtPword</txt_PassWord>
+        <btn_login locatorName="Name">login</btn_login>
+       
+    </LoginPage>
+    <HomePage>
+     <button_home locatorName="XPATH">//*[@id="Table_07"]/tbody/tr/td[2]/a/img</button_home>
+     <button_Branches locatorName="XPATH">//*[@id="Table_01"]/tbody/tr[2]/td/table/tbody/tr[2]/td/a/img</button_Branches> 
+     <button_Roles locatorName="XPATH">//*[@id="Table_01"]/tbody/tr[2]/td/table/tbody/tr[4]/td/a/img</button_Roles>
+     <button_Users locatorName="XPATH">//*[@id="Table_01"]/tbody/tr[2]/td/table/tbody/tr[6]/td/a/img</button_Users>
+     <button_Employee locatorName="XPATH">//*[@id="Table_01"]/tbody/tr[2]/td/table/tbody/tr[8]/td/a/img</button_Employee>
+     <button_ChangePassword locatorName="XPATH">//*[@id="Table_02"]/tbody/tr/td[2]/a/img</button_ChangePassword>
+     <button_Logout locatorName="XPATH">//*[@id="Table_02"]/tbody/tr/td[3]/a/img</button_Logout>
+      
+    </HomePage>
+    
+   <UserDetailsPage> 
+   <UserLink_Button locatorName="XPATH">//*[@id="Table_02"]/tbody/tr[2]/td/table/tbody/tr[6]/td/a/img</UserLink_Button>
+   <dropdown_Branch locatorName="XPATH">//*[@id="lst_branchS"]</dropdown_Branch>
+   <drop_Roles locatorName="XPATH">//*[@id="lst_rolesS"]</drop_Roles>
+   <button_Search locatorName="Name">btn_search</button_Search>
+   <button_Clear locatorName="Name">btn_clear</button_Clear>
+   <button_NewUser locatorName="Name">Btnuse</button_NewUser> 
+     
+   
+   </UserDetailsPage>
+   <NewUserPage>
+   <newUser_LinkButton locatorName="XPATH">//*[@id="Btnuser"]</newUser_LinkButton>
+         <dropdown_Role locatorName="Name">lst_Roles</dropdown_Role>
+         <dropdown_Branch locatorName="Name">lst_Branch</dropdown_Branch>
+         <dropdown_CustomerID locatorName="Name">DrCName</dropdown_CustomerID>
+         <txt_CustomerName locatorName="Name">Lbc_name</txt_CustomerName>
+         <txt_UserName locatorName="Name">txtUname</txt_UserName>
+         <txt_LoginPassword locatorName="Name">txtLpwd</txt_LoginPassword>
+         <txt_TransactionPassword locatorName="Name">txtTpwd</txt_TransactionPassword>    
+         <button_Submit locatorName="Name">BtnSubmit</button_Submit>
+         <button_Reset locatorName="Name">btnreset</button_Reset>
+         <button_Cancel locatorName="Name">btnCancel</button_Cancel>
+         
+         
+    </NewUserPage>
+     
+    
+    
+    
+    
+    
+    
+   
+</OR>
